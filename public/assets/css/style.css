@@ -1,0 +1,47 @@
+
+.product-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.product-info {
+    padding: 20px;
+}
+
+.product-title {
+    font-size: 1.8em;
+    margin: 0 0 15px 0;
+    color: #333;
+}
+
+.product-description {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #666;
+    margin: 0 0 20px 0;
+}
+
+.product-price {
+    font-size: 1.5em;
+    color: #e74c3c;
+    margin: 0;
+}
+.detail-holder {
+    display: flex;
+    justify-content: center;
+}
+div.dt-container select.dt-input {
+    width: 100px;
+}
